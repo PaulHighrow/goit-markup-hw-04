@@ -470,7 +470,8 @@ svg {
 }
 
 /* Эффект ховера для элементов списка постоянных клиентов */
-.customers.link:hover .customers.link:focus {
+.customers.link:hover,
+.customers.link:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
