@@ -435,7 +435,6 @@ svg {
 /* Расположение элементов по горизонтали и отступы */
 .customers.list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: var(--indent);
 }
@@ -444,8 +443,11 @@ svg {
 .customers.item {
   /* Переменная количества элементов в строке секции команды */
   --items: 6;
+}
 
-  /* Рамка элемента списка */
+/* Стиль иконок-ссылок в секции постоянных клиентов */
+.customers.link {
+  /* Рамка элемента */
   border: 1px solid var(--customer-color);
   border-radius: 4px;
 
@@ -467,8 +469,8 @@ svg {
   height: 60px;
 }
 
-/* Эффект ховера для списка постоянных клиентов */
-.customers.item:hover {
+/* Эффект ховера для элементов списка постоянных клиентов */
+.customers.link:hover {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
