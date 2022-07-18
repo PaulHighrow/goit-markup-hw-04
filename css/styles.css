@@ -80,7 +80,6 @@ svg {
 .link:hover:not(.logo),
 .link:focus:not(.logo) {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
 /* Размеры и отступы контейнеров контента */
